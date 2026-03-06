@@ -1,8 +1,8 @@
 # Project 2 Data Job Analysis
 
-![Data Science Jobs DashBoard 1](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Data_Science_Jobs_2023_DashBoard_A.gif)
+![Data Science Jobs DashBoard 1](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/38522e273ff43b42fda304fd5c69304c0554437d/Images/Project%202%20-%20Data_Science_Jobs_2023_DashBoard_A.gif)
 
-![Data Science Jobs DashBoard 2](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Data_Science_Jobs_2023_DashBoard_B.gif)
+![Data Science Jobs DashBoard 2](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/38522e273ff43b42fda304fd5c69304c0554437d/Images/Project%202%20-%20Data_Science_Jobs_2023_DashBoard_B.gif)
 
 ## Introduction
 
