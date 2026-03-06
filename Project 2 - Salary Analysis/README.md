@@ -1,11 +1,15 @@
 # Project 2 Data Job Analysis
 
+![Data Science Jobs DashBoard 1](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Data_Science_Jobs_2023_DashBoard_A.gif)
+
+![Data Science Jobs DashBoard 2](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Data_Science_Jobs_2023_DashBoard_B.gif)
+
 ## Introduction
 
 This analysis was carried out to better understand the data job market and provide insight to job seekers regarding the skills required, the associated renumeration, job schedule and job trends across different countries. It is carried out to know the skills in top demand, correlation between acquired skills and renumeration and the salaries associated with the skills in demand.
 
 ### Dashboard File  
-Here is the dashboard location [Salary Analysis Dashboard](https://github.com/Dr-Adekunle/Data_Analysis_Projects/tree/741d03c4b98e79ce1fc22196e16e56b787d1624a/Project%202%20-%20Salary%20Analysis/Project%202.xlsm).  
+Here is the dashboard location [Salary Analysis Dashboard](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Project%202%20-%20Salary%20Analysis/Project%202.xlsm).  
 
 ### Questions to Analyze
 
@@ -31,16 +35,16 @@ Here is the dashboard location [Salary Analysis Dashboard](https://github.com/Dr
 
 The dataset contains over 32,000 real-world data crawled from job sites over time. Its major columns include the job categories, average yearly and hourly salaries, required skills, countries, work schedule types, and benefits such as health insurance and the flexibility to work from home.
 
-[Jobs Dataset](https://github.com/Dr-Adekunle/Data_Analysis_Projects/tree/741d03c4b98e79ce1fc22196e16e56b787d1624a/Datasets/data_jobs_salary_all.xlsx)
+[Jobs Dataset](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Datasets/data_jobs_salary_all.xlsx)
 
 
 ## 1. How did job postings trend?
 
 Two charts were used to answer this question. The monthly trend was straightforward, the pivot table technique in Excel was used to correlate a two-column table of months and count of jobs after the dataset was loaded using Power Query. In the case of the weekly trend, a new column of weekdays was added using Excel's TEXT function while a pivot table was used to correlate these days with the count of job postings. Finally, a line chart with a trendline superimposed was used to check how job postings trended within the year while a column chart was used to visualize the weekly activities.
 
-![Trend computations in the background](https://github.com/Dr-Adekunle/Data_Analysis_Projects/tree/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/Project%202%20-%20Job%20trend%20computations.gif)
+![Trend computations in the background](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Job%20trend%20computations.gif)
 
-![Trend visualization](https://github.com/Dr-Adekunle/Data_Analysis_Projects/tree/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/Project%202%20-%20Job%20trend%20visuals.gif)
+![Trend visualization](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Job%20trend%20visuals.gif)
 
 
 ### Analysis Insights
@@ -60,15 +64,15 @@ Due to the way the job_skills column was rendered in the original dataset, data_
 Excel's data modeling capability was then used to integrate the data_jobs_salary_fact and data_jobs_skills_dim tables in a one-to-many fashion using the relationship between these two tables with the primary key (job_id) column.
 
 
-![Skills_dim table creation](https://github.com/Dr-Adekunle/Data_Analysis_Projects/tree/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/skills_dim_table_create.gif)
+![Skills_dim table creation](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Skills_dim_table_create.gif)
 
-![Skills_dim table modeling](https://github.com/Dr-Adekunle/Data_Analysis_Projects/tree/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/skills_dim_table_modeling.gif)
+![Skills_dim table modeling](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Skills_dim_table_modeling.gif)
 
 Thereafter, Power Pivot was employed to correlate the job skills with their associated median salaries and a combo visualization was created. With median yearly salary sorted on the primary y-axis in a column chart and the skills demand by a line chart on the secondary y-axis, the visualization told a notable story.
 
-![Skills in demand vs median salary table](https://github.com/Dr-Adekunle/Data_Analysis_Projects/tree/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/Project%202%20-%20Skills_salary_table.gif)
+![Skills in demand vs median salary table](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Skills_salary_table.gif)
 
-![Skills in demand vs median salary](https://github.com/Dr-Adekunle/Data_Analysis_Projects/tree/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/Project%202%20-%20Skills_salary_combo.gif)
+![Skills in demand vs median salary](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Skills_salary_combo.gif)
 
 
 ### Analysis Insights
@@ -81,7 +85,7 @@ Findings show that this is not the case. As seen from the bar-line combo chart, 
 
 Having created the data_jobs_skills_dim and related it with the data_jobs_salary_fact as previously described, Excel's Power Pivot was used to create a table correlating the median yearly salary with the average skills required per job for the respective data jobs.
 
-![Pay of skills per job](https://github.com/Dr-Adekunle/Data_Analysis_Projects/tree/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/Project%202%20-%20Skills_per_job_table.gif)
+![Pay of skills per job](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Skills_per_job_table.gif)
 
 The Skills per job was computed using Data Analysis Expression (DAX), first by obtaining the total count of the jobs and that of skills using the COUNT function as measures and finding the average using the DIVIDE function. The codes are shown below:
 
@@ -113,7 +117,7 @@ DIVIDE(
 
 For this analysis, a combo visualization was created with the primary y-axis as the median yearly salary in a column chart and a line chart for the average skills count on the secondary y-axis. The column chart was sorted it ascending order and a trend line was incorporated to see if there was a positive correlation in median salary as the job skill increases.
 
-![Does more skills mean more pay?](https://github.com/Dr-Adekunle/Data_Analysis_Projects/tree/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/Project%202%20-%20Skills_per_job_combo.gif)
+![Does more skills mean more pay?](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Skills_per_job_combo.gif)
 
 
 ### Analysis Insights
@@ -148,11 +152,11 @@ Non Canada = CALCULATE (
 )
 ```
 
-![Pivot Table for Canada vs the world](https://github.com/Dr-Adekunle/Data_Analysis_Projects/tree/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/Project%202%20-%20Canada_world_table.gif)
+![Pivot Table for Canada vs the world](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Canada_world_table.gif)
 
 A clustered bar chart was used to visualize these cases to understand how Canada faired with the rest of the world regarding renumeration of data jobs.
 
-![Bar chart for Canada vs the world](https://github.com/Dr-Adekunle/Data_Analysis_Projects/tree/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/Project%202%20-%20Canada_world_chart.gif)
+![Bar chart for Canada vs the world](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%202%20-%20Canada_world_chart.gif)
 
 
 ### Analysis Insights

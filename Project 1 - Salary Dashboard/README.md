@@ -1,13 +1,13 @@
 # Excel Salary Dashboard
 
-![Salary Dashboard 2023](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/Project%201%20-%20Data%20Science%20Information%20Dashboard.gif)  
+![Salary Dashboard 2023](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%201%20-%20Data%20Science%20Information%20Dashboard.gif)  
 
 ## Introduction  
 
 This dashboard provides a one-stop shop for job seekers in data science for the positions and number of vacancies available, what to expect for renumeration, the parts of the world these jobs are located, the proportion of entry-level positions and the degree to which certain benefits exists.  
 
 ### Dashboard File  
-Here is the dashboard location [Salary_Dashboard]("C:\Users\Adekunle\Desktop\Data Projects\Excel\Data_Analysis_Projects\Project 1 - Salary Dashboard\Project 1.xlsx").  
+Here is the dashboard location [Salary_Dashboard](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Project%201%20-%20Salary%20Dashboard/Project%201.xlsx).  
 
 ### Excel Skills Utilized  
 The following Excel skills were employed in the creation of the dashboard:  
@@ -22,16 +22,16 @@ The following Excel skills were employed in the creation of the dashboard:
 
 The data site contains over 32,000 real-world data crawled from job sites over time. Its major columns include the job categories, average yearly and hourly salaries, required skills, countries, and benefits such as health insurance and the flexibility to work from home.  
 
-[Dataset]("C:\Users\Adekunle\Desktop\Data Projects\Excel\Data_Analysis_Projects\Datasets\data_jobs_salary_all.xlsx")  
+[Dataset](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Datasets/data_jobs_salary_all.xlsx)  
 
 
 ## Dashboard Build  
 
-![Computations in the background](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/Project%201%20-%20Computations%20behind%20the%20scene.gif)
+![Computations in the background](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%201%20-%20Computations%20behind%20the%20scene.gif)
 
 Behind the scene, a UNIQUE array of the job titles was created, LOGICAL operations were used to FILTER and AGGREGATE the desired metrics against each job while the XLOOKUP function was used to isolate the specific information to appear on the dashboard. Statistical functions such as MEDIAN and ARITHMETIC computations, nested IF statements were used in other worksheets to obtain the information on the dashboard and make them interact dynamically.  
 
-![Data validation](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/741d03c4b98e79ce1fc22196e16e56b787d1624a/Images/Project%201%20-%20Data%20validation.gif)  
+![Data validation](https://github.com/Dr-Adekunle/Data_Analysis_Projects/blob/65ef4472587e7fe89a653f7c0a0fd806452b488e/Images/Project%201%20-%20Data%20validation.gif)  
   
 Bar and Map charts were used to visualize the median salaries of the job titles in monochromatic color scheme for easier readability allowing the immediate understanding of the disparities in global salaries across countries at a glance. Dough nut charts were employed to provide insights into the proportion to which job seekers may apply without a degree, work from home, have access to health insurance or to hourly pay. The information were linked in a way to make all the dashboard charts interactive based on the job title and country selected using data validation which prevent users from entering invalid inputs. Some sample codes used in the build are highlighted below: 
 
